@@ -22,7 +22,7 @@ public class PandaApplicationSeleniumTest {
     private static WebDriver driver;
     
     @LocalServerPort
-    private int port=8090
+    private int port=8090;
     
     @BeforeEach
     public void startup() throws InterruptedException, MalformedURLException {
